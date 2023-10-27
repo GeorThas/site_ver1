@@ -1,0 +1,277 @@
+body {
+    background: #fbc63f;
+}
+
+.backBlock {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 71%;
+    height: 3800px;
+    background: rgb(32, 53, 75);
+    margin-top: -1000px;
+    left: 10%;
+    right: 10%;
+}
+
+.center {
+    position: relative;
+    /* top:50%; */
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+.text_block_1{
+    text-transform: none;
+    text-align: center;
+    background:  linear-gradient(rgb(210, 142, 230), rgb(103, 239, 239));
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    margin-top: 25px;
+    padding-top: 30%;
+    top: 45%;
+    left: 20%;
+    font-size: 60px;
+
+}
+
+#sun {
+    background: linear-gradient( rgb(234, 59, 133), rgb(31, 51, 71), rgb(199, 51, 140),  rgb(31, 51, 71), rgb(221, 56, 176), rgb(31, 51, 71), rgb(221, 56, 176),  rgb(31, 51, 71), rgb(199, 51, 140), rgb(31, 51, 71),rgb(234, 59, 133),#E03576FF, #fdc83f,rgb(111, 69, 141));
+    width: 700px;
+    height: 700px;
+    -webkit-clip-path: circle(50%);
+    border-radius: 50%;
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 60%;
+}
+
+#horizon{
+    background: #20354a;
+    width: 1000px;
+    height: 65px;
+    position: absolute;
+    top: 317px;
+    left: 50%;
+    margin-right: -50%;
+    border-top: 5px solid crimson;
+    transform: translate(-50%, -50%)
+}
+
+
+#horizon1{
+    position: relative;
+    background: #20354a;
+    width: 1200px;
+    height: 20px;
+    position: absolute;
+
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#cloud {
+    background: linear-gradient(rgb(230, 136, 236),rgb(15, 219, 195), rgb(15, 217, 193),rgb(15, 219, 195));
+    width: 400px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 21%;
+}
+
+#cloud:after {
+    content: '';
+    background: linear-gradient(rgb(230, 136, 236), rgb(91, 234, 231), rgb(15, 216, 192), rgb(15, 215, 191),rgb(15, 219, 195));
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+
+
+    top: -50px;
+    left: 50px;
+}
+
+#cloud:before {
+    content: '';
+    background: linear-gradient(rgb(230, 136, 236),rgb(15, 219, 195), rgb(103, 239, 239),rgb(15, 219, 195),rgb(15, 219, 195));
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    top: -90px;
+    right: 60px;
+
+}
+
+.parent {
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.parent2 {
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    display: flex;
+
+
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+.block {
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(50deg, #fdc83f 10%, #e03576 90%, #20354a 1%);
+    /*border: 4px solid #0FD8C0FF;
+    border-radius: 20px;*/
+
+    margin: auto;
+    box-shadow: -15px 15px rgb(22, 159, 145);
+}
+
+.text-in-block {
+    padding: 25px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: rgba(32, 53, 74, 0.89) 1px 1px;
+    font-family: Roboto, serif;
+    background:  linear-gradient(-135deg, rgb(49, 253, 35), rgb(0, 110, 253)80%);
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent;
+}
+
+.block2 {
+    width: 320px;
+    height: 400px;
+    background-color: #e23577;
+    margin: 20px;
+}
+
+.block3 {
+    width: 300px;
+    height: 400px;
+    background-color: #e23577;
+    margin: auto;
+}
+
+.textcols-header{
+    position: relative;
+    /* background: linear-gradient(-55deg, rgb(117, 200, 191), rgb(104, 159, 210), rgb(221, 0, 78)); */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-style: normal;
+    font-family: "Courier New" , serif;
+    font-size: 30px;
+    color: white;
+    border-bottom: 4px solid #20354a;
+
+    padding: 5px;
+    margin: 0 auto;
+
+}
+
+.text_block_2{
+    text-transform: uppercase;
+    padding: 70px;
+    border-bottom: 5px;
+    border: rgb(117, 200, 191);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-block-2-style{
+     position: relative;
+    background: linear-gradient(45deg,#20354a 5%,#e23577, #fbc63f,#e23577,#20354a);
+    border: 3px;
+    border: white;
+    color: white;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    /*padding: 30px;*/
+    width: 900px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: -700px;
+
+}
+
+.headers{
+    box-shadow: #182d41 10px 10px;
+    position: relative;
+    margin-left: 10%;
+    font-family: "Courier New", serif;
+    font-size: 50px;
+    background:  linear-gradient(55deg,rgb(53,208,170), rgb(251,198,63));
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent;
+}
+
+
+.sliderContainer {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: linear-gradient(55deg,#20354a 5%,rgb(53,208,170), rgb(251,198,63),#20354a);
+    
+  }
+  
+  .slider {
+    width: 300px;
+    margin-top: 25px;
+    margin-left: auto ;
+    margin-right: auto;
+    display: flex;
+    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .slider img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .prevButton,
+  .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 600px;
+    background: linear-gradient(45deg,#20354a 5%,#e23577, #fbc63f,#e23577,#20354a);;
+    /* background-color: transparent; */
+    border: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .prevButton {
+    left: 0px;
+  }
+  
+  .nextButton {
+    right: 0px;
+  }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet"  href="clwd.css">
+</head>
+<body style="padding-left: 15%; padding-right: 15%; left: 200px; right: 200px">
+
+<div class="backBlock"></div>
+
+<div  class="center">
+
+    <div id="sun">
+
+
+        <div id="horizon1" style="top: 55px;"></div>
+        <div id="horizon1" style="top: 163px;"></div>
+        <div id="horizon1" style="top: 272px;"></div>
+        <div id="horizon1" style="top: 378px;"></div>
+        <div id="horizon1" style="top: 485px;"></div>
+
+        <div>
+            <h1 class="text_block_1" >
+                {CloudHorizon}
+            </h1>
+        </div>
+       <div id = "cloud"></div>
+    </div>
+    <div id="horizon"></div>
+
+</div>
+
+
+<div  class="text-block-2-style" >
+    <p class="text_block_2">
+        &nbspПриветствую. В этой статье я хочу рассказать о трех способах размещения изображения в качестве фона всей страницы при помощи только HTML + CSS (без использования JS).
+
+        Итак, требования к фоновому &nbspизображению у нас следующие:
+
+        Покрывается 100% ширины и высоты страницы
+        Фон масштабируется при необходимости (background растягивается или сжимается в зависимости от размеров экрана)
+        Сохраняются пропорции картинки (aspect ratio)
+        Изображение центрировано на странице
+        Фон не вызывает скроллов
+        Решение максимально кроссбраузерное
+        Не используются никакие другие технологии кроме CSS
+    </p>
+</div>
+
+<div style="margin-top: 130px">
+    <span class="headers">Нас ценят за:
+    </span>
+
+<div class="parent">
+    <div class="block">
+        <h3 style="text-align: center; margin-top: 40px; margin-left: -55px"><span class="textcols-header" >&nbspБезопасность</span></h3>
+        <img src="images/umbrella.png" style="width: 170px;height: 150px; margin-left: 19%; margin-top: 10px">
+        <p class="text-in-block">"...Я доверил важные файлы каким-то студентам... <br>Что может пойти не так?!"</p>
+    </div>
+    <div class="block">
+        <h3 style="text-align: center; margin-top: 40px; margin-left: -55px"><span class="textcols-header" >&nbspПрактичность</span></h3>
+        <img src="images/cloud.png" style="width: 210px;height: 130px; margin-left: 12%; margin-top: 10px">
+        <p class="text-in-block" style="padding-top: 15%">"Axахахах, да ладно!"</p>
+    </div>
+    <div class="block">
+        <h3 style="text-align: center; margin-top: 40px; margin-left: -135px"><span class="textcols-header" >&nbspУдобство</span></h3>
+        <img src="images/sun.png" style="width: 180px;height: 150px; margin-left: 17%; margin-top: 10px">
+        <p class="text-in-block" style="padding-top: 5%">"Если Вы действительно так считайте, то у Нас для Вас плохие новости..."</p>
+    </div>
+</div>
+</div>
+
+
+<div  style="margin-top: 100px; width: 900px; border-radius: 0 " class="text-block-2-style" >
+    <p class="text_block_2">
+        &nbspПриветствую. В этой статье я хочу рассказать о трех способах размещения изображения в качестве фона всей страницы при помощи только HTML + CSS (без использования JS).
+
+        Итак, требования к фоновому &nbspизображению у нас следующие:
+
+        Покрывается 100% ширины и высоты страницы
+        Фон масштабируется при необходимости (background растягивается или сжимается в зависимости от размеров экрана)
+    </p>
+</div>
+
+
+<div style="margin-top: 130px">
+    <span class="headers">Предоставляемые услуги:</span>
+</div>
+
+<div class="sliderContainer">
+    <div class="slider">
+        <img src="images/Снимок экрана 2023-10-14 105221.png" alt="">
+        <img src="images/Снимок экрана 2023-10-14 105230.png" alt="">
+        <img src="images/Снимок экрана 2023-10-14 105257.png" alt="">
+    </div>
+    <button class="prevButton" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+    <button class="nextButton" aria-label="Посмотреть следующий слайд">&gt;</button>
+</div>
+
+<!-- <form onsubmit="return check(this)">
+    <button onclick="onClickButton(this)"> Click </button>
+    <input type="text" name="name" placeholder="Имя" id="name">
+    <input type="submit" name="submit" value="Done">
+</form> -->
+
+
+<div style="margin-top: 130px">
+    <span class="headers">
+        Разработчики:
+    </span>
+
+    <div class="parent2">
+        <div class="block2">
+            <h3 style="text-align: center; margin-top: 40px; margin-left: -55px"><span class="textcols-header" >&nbspimg</span></h3>
+            <img src="images/umbrella.png" style="width: 170px;height: 150px; margin-left: 19%; margin-top: 10px">
+            <p class="text-in-block"></p>
+        </div>
+        <div class="block2">
+            <h3 style="text-align: center; margin-top: 40px; margin-left: -55px"><span class="textcols-header" >&nbspimg</span></h3>
+            <img src="images/cloud.png" style="width: 210px;height: 130px; margin-left: 12%; margin-top: 10px">
+            <p class="text-in-block" style="padding-top: 15%"></p>
+        </div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
